@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03034A5C16EF8BB2003E5939 /* Notebook+Paper+2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03034A5B16EF8BB2003E5939 /* Notebook+Paper+2.jpg */; };
 		0313903516EBE2430052F966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0313903416EBE2430052F966 /* UIKit.framework */; };
 		0313903716EBE2430052F966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0313903616EBE2430052F966 /* Foundation.framework */; };
 		0313903916EBE2430052F966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0313903816EBE2430052F966 /* CoreGraphics.framework */; };
@@ -18,9 +19,17 @@
 		0313904B16EBE2430052F966 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0313904A16EBE2430052F966 /* Default-568h@2x.png */; };
 		0313904E16EBE2430052F966 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0313904C16EBE2430052F966 /* MainStoryboard.storyboard */; };
 		0313905116EBE2430052F966 /* JLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313905016EBE2430052F966 /* JLPViewController.m */; };
+		0313905916EBE2EB0052F966 /* JLPNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313905816EBE2EB0052F966 /* JLPNotes.m */; };
+		0313905C16EBE4CB0052F966 /* JLPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313905B16EBE4CB0052F966 /* JLPTableViewController.m */; };
+		031591F316EFAC7E00821712 /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 031591F216EFAC7E00821712 /* notes.png */; };
+		031591F516EFACA400821712 /* notes copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 031591F416EFACA400821712 /* notes copy.png */; };
+		03AE75E216EC0229005C6129 /* JLPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE75E116EC0229005C6129 /* JLPDetailViewController.m */; };
+		03AE75E416EC07AF005C6129 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AE75E316EC07AF005C6129 /* MapKit.framework */; };
+		03AE75E616EC07B4005C6129 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AE75E516EC07B4005C6129 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03034A5B16EF8BB2003E5939 /* Notebook+Paper+2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Notebook+Paper+2.jpg"; sourceTree = "<group>"; };
 		0313903116EBE2430052F966 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0313903416EBE2430052F966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0313903616EBE2430052F966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +46,16 @@
 		0313904D16EBE2430052F966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0313904F16EBE2430052F966 /* JLPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLPViewController.h; sourceTree = "<group>"; };
 		0313905016EBE2430052F966 /* JLPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLPViewController.m; sourceTree = "<group>"; };
+		0313905716EBE2EB0052F966 /* JLPNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPNotes.h; sourceTree = "<group>"; };
+		0313905816EBE2EB0052F966 /* JLPNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPNotes.m; sourceTree = "<group>"; };
+		0313905A16EBE4CB0052F966 /* JLPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPTableViewController.h; sourceTree = "<group>"; };
+		0313905B16EBE4CB0052F966 /* JLPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPTableViewController.m; sourceTree = "<group>"; };
+		031591F216EFAC7E00821712 /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notes.png; path = ../notes.png; sourceTree = "<group>"; };
+		031591F416EFACA400821712 /* notes copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notes copy.png"; path = "../notes copy.png"; sourceTree = "<group>"; };
+		03AE75E016EC0229005C6129 /* JLPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPDetailViewController.h; sourceTree = "<group>"; };
+		03AE75E116EC0229005C6129 /* JLPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPDetailViewController.m; sourceTree = "<group>"; };
+		03AE75E316EC07AF005C6129 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		03AE75E516EC07B4005C6129 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AE75E616EC07B4005C6129 /* CoreLocation.framework in Frameworks */,
+				03AE75E416EC07AF005C6129 /* MapKit.framework in Frameworks */,
 				0313903516EBE2430052F966 /* UIKit.framework in Frameworks */,
 				0313903716EBE2430052F966 /* Foundation.framework in Frameworks */,
 				0313903916EBE2430052F966 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +77,8 @@
 		0313902816EBE2430052F966 = {
 			isa = PBXGroup;
 			children = (
+				03AE75E516EC07B4005C6129 /* CoreLocation.framework */,
+				03AE75E316EC07AF005C6129 /* MapKit.framework */,
 				0313903A16EBE2430052F966 /* Notes */,
 				0313903316EBE2430052F966 /* Frameworks */,
 				0313903216EBE2430052F966 /* Products */,
@@ -86,8 +109,14 @@
 				0313904316EBE2430052F966 /* JLPAppDelegate.h */,
 				0313904416EBE2430052F966 /* JLPAppDelegate.m */,
 				0313904C16EBE2430052F966 /* MainStoryboard.storyboard */,
+				0313905A16EBE4CB0052F966 /* JLPTableViewController.h */,
+				0313905B16EBE4CB0052F966 /* JLPTableViewController.m */,
 				0313904F16EBE2430052F966 /* JLPViewController.h */,
 				0313905016EBE2430052F966 /* JLPViewController.m */,
+				0313905716EBE2EB0052F966 /* JLPNotes.h */,
+				0313905816EBE2EB0052F966 /* JLPNotes.m */,
+				03AE75E016EC0229005C6129 /* JLPDetailViewController.h */,
+				03AE75E116EC0229005C6129 /* JLPDetailViewController.m */,
 				0313903B16EBE2430052F966 /* Supporting Files */,
 			);
 			path = Notes;
@@ -96,6 +125,9 @@
 		0313903B16EBE2430052F966 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				031591F416EFACA400821712 /* notes copy.png */,
+				031591F216EFAC7E00821712 /* notes.png */,
+				03034A5B16EF8BB2003E5939 /* Notebook+Paper+2.jpg */,
 				0313903C16EBE2430052F966 /* Notes-Info.plist */,
 				0313903D16EBE2430052F966 /* InfoPlist.strings */,
 				0313904016EBE2430052F966 /* main.m */,
@@ -164,6 +196,9 @@
 				0313904916EBE2430052F966 /* Default@2x.png in Resources */,
 				0313904B16EBE2430052F966 /* Default-568h@2x.png in Resources */,
 				0313904E16EBE2430052F966 /* MainStoryboard.storyboard in Resources */,
+				03034A5C16EF8BB2003E5939 /* Notebook+Paper+2.jpg in Resources */,
+				031591F316EFAC7E00821712 /* notes.png in Resources */,
+				031591F516EFACA400821712 /* notes copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +212,9 @@
 				0313904116EBE2430052F966 /* main.m in Sources */,
 				0313904516EBE2430052F966 /* JLPAppDelegate.m in Sources */,
 				0313905116EBE2430052F966 /* JLPViewController.m in Sources */,
+				0313905916EBE2EB0052F966 /* JLPNotes.m in Sources */,
+				0313905C16EBE4CB0052F966 /* JLPTableViewController.m in Sources */,
+				03AE75E216EC0229005C6129 /* JLPDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +337,7 @@
 				0313905616EBE2430052F966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
